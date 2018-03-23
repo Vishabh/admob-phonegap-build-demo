@@ -53,8 +53,8 @@ var app = {
                 interstitial: 'ca-app-pub-9863325511078756/6709280228'
             },
             android: {
-                banner: 'ca-app-pub-1489931147152876/6747723793',
-                interstitial: 'ca-app-pub-1489931147152876/8084856197'
+                banner: 'ca-app-pub-3940256099942544/6300978111',
+                interstitial: 'ca-app-pub-3940256099942544/1033173712'
             }
         };
         var admobid;
