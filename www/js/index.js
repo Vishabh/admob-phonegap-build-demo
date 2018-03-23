@@ -39,7 +39,7 @@ var app = {
     // Application Constructor
     initialize: function () {
         if ((/(ipad|iphone|ipod|android)/i.test(navigator.userAgent))) {
-            document.addEventListener('deviceready', this.onDeviceReady, false);
+            document.addEventListener('deviceready', this.onDeviceReady, true);
         } else {
             app.onDeviceReady();
         }
@@ -53,8 +53,8 @@ var app = {
                 interstitial: 'ca-app-pub-9863325511078756/6709280228'
             },
             android: {
-                banner: 'ca-app-pub-9863325511078756/9802347428',
-                interstitial: 'ca-app-pub-9863325511078756/2279080628'
+                banner: 'ca-app-pub-1489931147152876/6747723793',
+                interstitial: 'ca-app-pub-1489931147152876/8084856197'
             }
         };
         var admobid;
@@ -105,7 +105,7 @@ var app = {
         var weinre,
             weinreUrl;
 
-        document.removeEventListener('deviceready', app.onDeviceReady, false);
+        document.removeEventListener('deviceready', app.onDeviceReady, true);
 
         if (app.weinre.enabled) {
             console.log('Loading weinre...');
